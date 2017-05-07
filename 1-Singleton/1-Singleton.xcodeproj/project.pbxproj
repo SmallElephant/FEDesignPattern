@@ -14,6 +14,7 @@
 		C51500E71EA36E4B00B98E5B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C51500E51EA36E4B00B98E5B /* LaunchScreen.storyboard */; };
 		C51500F21EA36E4B00B98E5B /* __SingletonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51500F11EA36E4B00B98E5B /* __SingletonTests.swift */; };
 		C51500FD1EA36E4B00B98E5B /* __SingletonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51500FC1EA36E4B00B98E5B /* __SingletonUITests.swift */; };
+		C515010B1EA36FA100B98E5B /* StudyManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C515010A1EA36FA100B98E5B /* StudyManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		C51500F81EA36E4B00B98E5B /* 1-SingletonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "1-SingletonUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C51500FC1EA36E4B00B98E5B /* __SingletonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = __SingletonUITests.swift; sourceTree = "<group>"; };
 		C51500FE1EA36E4B00B98E5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C515010A1EA36FA100B98E5B /* StudyManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StudyManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				C51500E31EA36E4B00B98E5B /* Assets.xcassets */,
 				C51500E51EA36E4B00B98E5B /* LaunchScreen.storyboard */,
 				C51500E81EA36E4B00B98E5B /* Info.plist */,
+				C515010A1EA36FA100B98E5B /* StudyManager.swift */,
 			);
 			path = "1-Singleton";
 			sourceTree = "<group>";
@@ -261,6 +264,7 @@
 			files = (
 				C51500DF1EA36E4B00B98E5B /* ViewController.swift in Sources */,
 				C51500DD1EA36E4B00B98E5B /* AppDelegate.swift in Sources */,
+				C515010B1EA36FA100B98E5B /* StudyManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
