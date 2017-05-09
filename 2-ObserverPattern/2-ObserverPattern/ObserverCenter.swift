@@ -20,7 +20,7 @@ class ObserverCenter {
         observerMap.removeValue(forKey: observerName)
     }
     
-    func notifyData(data:String) {
+    func notifyObserver(data:String) {
         
         for (_,value) in observerMap {
             let observer:Observer = value

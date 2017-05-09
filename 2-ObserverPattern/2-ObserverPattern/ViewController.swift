@@ -32,7 +32,7 @@ class ViewController: UIViewController {
         let studentObserver:StudyObserver = StudyObserver()
         observerCenter.addObserver(observerName: "Student", observer: studentObserver)
         
-        observerCenter.notifyData(data: "FlyElephant")
+        observerCenter.notifyObserver(data: "FlyElephant")
         
     }
 }
