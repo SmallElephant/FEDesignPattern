@@ -12,8 +12,8 @@ class Facade {
     
     func work() {
         
-        var cook:Cook = Cook()
-        var service:Service = Service()
+        let cook:Cook = Cook()
+        let service:Service = Service()
         
         cook.cook()
         service.server()
